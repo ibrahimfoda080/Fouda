@@ -89,10 +89,10 @@ body{
     animation: control-width 3s 1s;
 }
 @keyframes control-width {
-    0%{
+    from{
         width: 0;
     }
-    100%{
+    to{
         width: 450px;
     }
 }
@@ -254,7 +254,7 @@ body{
     .header {
         font-size: 8px;
     }
-    @keyframes control-width2 {
+    @keyframes control-width {
         from{
             width: 0;
         }
@@ -276,12 +276,12 @@ body{
         width: 18em ;
     }
 
-    @keyframes control-width2 {
+    @keyframes control-width {
         from{
             width: 0;
         }
         to {
-            width: 260px;
+            width: 280px;
         }
     }
     
